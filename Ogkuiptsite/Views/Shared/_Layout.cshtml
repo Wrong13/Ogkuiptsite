@@ -7,22 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-cyan-400">
-<nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+<nav  id="mainnav"class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
     <div class="flex justify-between items-center">
         <span class="text-2xl font-mono font-medium cursor-pointer">
             <img class="h-10 inline" src="Resources/Ogkuipt.jpg"/>
             ОГКУиПТ
         </span>
-        
+
         <span class="text-3xl cursor-pointer md:hidden block">
             <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
         </span>
     </div>
-    
+
     <ul class="md:flex md:items-center 
 z-[-1] md:z-auto md:static absolute bg-white w-full left-0
 md:w-auto md:py-0 py-4 md:p1-0 p1-7 md:opacity-100 opacity-0 top-[-400px] transition-all 
-ease-in duration-500">
+ease-in duration-500 mb-1">
         <li class="mx-4 my-6 md:my-0">
             <a href="#" class="text-xl hover:text-cyan-500 duration-500">Главная</a>
         </li>
@@ -35,10 +35,10 @@ ease-in duration-500">
         <li class="mx-4 my-6 md:my-0">
             <a href="#" class="text-xl hover:text-cyan-500 duration-500">О нас</a>
         </li>
-        
+
     </ul>
 </nav>
-<div class="lg:content-auto">
+<div id="mainDiv" class="lg:content-auto duration-500">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
@@ -54,10 +54,11 @@ ease-in duration-500">
     function Menu(e)
     {
         let list = document.querySelector('ul');
-        
+        let mainDiv = document.getElementById('mainDiv');
         e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]'),
-        list.classList.add('opacity-100')) :
-        ( e.name = "menu" , list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+        list.classList.add('opacity-100'),list.classList.add('z-[1]'),mainDiv.classList.add('mt-80')) :
+        ( e.name = "menu" , list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'),
+        list.classList.remove('z-[1]'),mainDiv.classList.remove('mt-80'))
     }
 </script>
 

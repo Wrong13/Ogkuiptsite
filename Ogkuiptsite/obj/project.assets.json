@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ilak7\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Пользователь\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilak7\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\Ogkuiptsite.csproj",
+      "projectUniqueName": "C:\\Users\\Пользователь\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\Ogkuiptsite.csproj",
       "projectName": "Ogkuiptsite",
-      "projectPath": "C:\\Users\\ilak7\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\Ogkuiptsite.csproj",
-      "packagesPath": "C:\\Users\\ilak7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilak7\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\obj\\",
+      "projectPath": "C:\\Users\\Пользователь\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\Ogkuiptsite.csproj",
+      "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Пользователь\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ilak7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Пользователь\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
