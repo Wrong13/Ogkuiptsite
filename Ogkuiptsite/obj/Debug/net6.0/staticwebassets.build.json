@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M1YQJlDrZbQ4vWDzS8fiR3eTecRRnjPlVvtxCHQQxus=",
+  "Hash": "bck8WE8ivXUsLRCaQ1Fent4S63r9kbm6GNLbeA7OFfc=",
   "Source": "Ogkuiptsite",
   "BasePath": "_content/Ogkuiptsite",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Resources\\Priemnaya.png"
+    },
+    {
+      "Identity": "C:\\Users\\ilak7\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\wwwroot\\Resources\\Zaglushka.jpg",
+      "SourceId": "Ogkuiptsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ilak7\\RiderProjects\\Ogkuiptsite\\Ogkuiptsite\\wwwroot\\",
+      "BasePath": "_content/Ogkuiptsite",
+      "RelativePath": "Resources/Zaglushka.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\Zaglushka.jpg"
     }
   ]
 }
